@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta name="wiewport" content="width=device-width,intial-scale=">
+<title>Blog layout</title>
+<style type="text/css">
+ body{
+       font-family:Arial;
+	   margin:0;
+	   padding:20px;
+	   background-color: #f1f1f1;
+	  }
+	*{
+       box-sizing: border-box;
+    }
+    .row:after{
+         content: '';
+         display: table;
+         clear: both;
+        }		 
+ header{
+        background-color: 	darkorange;
+		padding:30px;
+	   }
+	   
+  header h1{
+          text-align:center;
+		  font-size:60px;
+		  color:#000000;
+		  margin:1.5 0px;
+		  }
+	h2{
+       color:#000000;
+     margin:1.5 0px;
+     }	 
+	.left-column{
+	    float: left;
+		width:75%;
+		}
+		
+	.right-column{
+	     width: 25%;
+		 float: right;
+		 padding-left:20px;
+		 }
+		 
+	.card{
+       padding: 20px;
+       background-color:  teal;
+     margin-top:20px;
+    }
+   .right-column .card img{
+        margin-bottom:10px;
+	}
+	
+	footer{
+	   background-color: gold;
+	   padding: 20px;
+	   text-align: center;
+	   margin-top: 20px;
+	  }
+	
+    /*responsive*/
+
+  @media(max-width:800px){
+        .left-column,.right-column{
+        width: 100%;
+		padding: 0px;
+        }
+
+    }
+</style>		
+<body>
+<header>
+<h1>Our Blog</h1>
+</header>
+<div class="row">
+    <div class="left-column">
+	<div class="card">
+	     <h2>ANONYMOUS BLOG</h2>
+		 <h5>title description, Oct 31, 2020</h5>
+		 <img src="img/prog.jpg" alt="blog" width="900" height="100%">
+		 <p>Anonymous Dev..</p>
+		 <p>Welcome to the anonymous blog.We deal with coding and hacking you are one step closer to enjoy our offer</p>
+		 <p>The anonymous blog was created by "The anoynomous dev group" which was founded 2019.The blog aim is to educate and enrich the minds of youth into coding and hacking precisely so as to empower the future the with great ideas and mindsets.</p>
+		 </div>
+    <div class="card">
+	     <h2>ANONYMOUS DEV GROUP</h2>
+		 <h5>programming languages, Oct 31, 2020</h5>
+		 <img src="img/ai.jpg" alt="blog" width="900" height="100%">
+		 <p>Anonymous Dev..</p>
+		 <p>programming languages has help changed the world in severals ways one of the vital good effect of programming is AI known as artificial intelligience,machine languages made it possible precisely to invent an AI machine.Here are the top five machine language
+		 1.Arduino
+		 2.python
+		 3.C++
+		 4.C#
+		 5.PHP</p>
+		 </div>
+		</div> 
+	<div class="right-column">
+	<div class="card">
+	     <h2>About Me</h2>
+		 <img src="img/are.jpg" width="250" height="100%">
+		 <p>I am a gentle but weird guy,kinda hansome though but not fun to be with.A web programmer as a knownledge still learning.</p>
+	</div>
+	<div class="card">
+	    <h3>popular post</h3>
+		 <img src="img/pyth.png" alt="blog"/ width="300" height="100%">
+		  <img src="img/comp.png" alt="blog"/width="300" height="100%">
+		   <img src="img/ai.jpg" alt="blog"/width="300" height="100%">
+	</div>
+	<div class="card">
+	 <hr><b>Follow Me</b>
+	<br><A href= "facebook:Karaliz Smith"> Facebook:karaliz Smith</A>
+	<br><A href="http://wa.me/+2348053881839?text='Hi' id=WAmsg">whatsapp me </A>
+	   </div>
+	  </div>
+	 </div>
+	<footer>
+	   <h2>Anonymous Dev copyright 2020</h2>
+	</footer>
+	
+</body>
+</head>
+</html>
+
+
+/*thanks*/

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta name="wiewport" content="width=device-width,intial-scale=">
+<title>Blog layout</title>
+<body>
+
+<header>
+<h1>Our Blog</h1>
+</header>
+<div class="row">
+    <div class="left-column">
+	     <h2>ANONYMOUS BLOG</h2>
+		 <h5>totle description, Oct 31, 2020</h5>
+		 <img src="img/23.jpg" alt="blog"/>
+	</div>
+	<div class="right-column">
+	</div>
+</head>
+</body>
+</html>
